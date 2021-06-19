@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  🚀 Semana OmniStack 11.0 ⚛
+   MyLibrary - Sua biblioteca pessoal
 </h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/iag0bezz/MyLibrary">
@@ -26,10 +26,6 @@
 
 <br>
 
-<p align="center">
-  <img alt="Frontend" src="https://github.com/jlenon7/Stack11/raw/master/.github/codding.jpg" width="100%">
-</p>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -51,6 +47,6 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 ---
 
-<spam align="center">
+<p align="center">
     Feito com 🖤 by Iago Beserra :wave:
-</spam>
+</p>
