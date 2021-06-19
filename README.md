@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="MyLibrary" title="Logo" src="https://i.imgur.com/u83YSHK.png" width="250px" />
+    <img alt="MyLibrary" title="Logo" src="https://i.imgur.com/u83YSHK.png" />
 </h1>
 
 <h4 align="center">
