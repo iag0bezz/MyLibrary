@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-   MyLibrary - Sua biblioteca pessoal
+   📚 MyLibrary - Sua biblioteca pessoal 📚
 </h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/iag0bezz/MyLibrary">
