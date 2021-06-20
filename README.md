@@ -29,6 +29,8 @@
 
 ## 🚀 Tecnologias
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/40c72adef88b436db7d9bd5a393beef7)](https://app.codacy.com/gh/iag0bezz/MyLibrary?utm_source=github.com&utm_medium=referral&utm_content=iag0bezz/MyLibrary&utm_campaign=Badge_Grade_Settings)
+
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [ReactJS](https://reactjs.org)
