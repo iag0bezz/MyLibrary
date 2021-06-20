@@ -49,13 +49,14 @@ O MyLibrary é uma pequena ferramenta para organização de conteúdos, comentá
 
 Após ser realizado o merge de seu pull request, você pode deletar sua branch.
 
-## Desenvolvedores
-    
-Este projeto é desenvolvido e mantido pelas seguintes pessoas:
+## Contribuidores
 
-[![Iago Beserra](https://github.com/iag0bezz.png?size=100)](https://github.com/iag0bezz) |
---- |  
-[Iago Beserra](https://github.com/iag0bezz) |
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/iag0bezz"><img style="border-radius: 50%;" src="https://github.com/iag0bezz.png?size=100" width="100px;" alt=""/><br /><sub><b>Iago Beserra</b></sub></a><br /><a href="https://github.com/iag0bezz" title="GitHub">💻🛠️</a></td>
+    <td align="center"><a href="https://github.com/ianlibanio"><img style="border-radius: 50%;" src="https://github.com/ianlibanio.png?size=100" width="100px;" alt=""/><br /><sub><b>Ian Libânio</b></sub></a><br /><a href="https://github.com/ianlibanio" title="GitHub">📰</a></td>
+  </tr>
+</table>
  
 ---
 
