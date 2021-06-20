@@ -14,7 +14,7 @@ export default function Routes() {
             <Switch>
                 <Route exact path="/" component={Home} />
 
-                <Redirect from='*' to='/' />
+                
             </Switch>
         </BrowserRouter>
     )
