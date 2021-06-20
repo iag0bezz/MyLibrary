@@ -53,8 +53,8 @@ Após ser realizado o merge de seu pull request, você pode deletar sua branch.
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/iag0bezz"><img style="border-radius: 50%;" src="https://github.com/iag0bezz.png?size=100" width="100px;" alt=""/><br /><sub><b>Iago Beserra</b></sub></a><br /><a href="https://github.com/iag0bezz" title="GitHub">💻🛠️</a></td>
-    <td align="center"><a href="https://github.com/ianlibanio"><img style="border-radius: 50%;" src="https://github.com/ianlibanio.png?size=100" width="100px;" alt=""/><br /><sub><b>Ian Libânio</b></sub></a><br /><a href="https://github.com/ianlibanio" title="GitHub">📰</a></td>
+    <td align="center"><a href="https://github.com/iag0bezz"><img style="border-radius: 50%;" src="https://github.com/iag0bezz.png?size=100" width="100px;" alt=""/><br /><sub><b>Iago Beserra</b></sub></a><br /><a href="https://github.com/iag0bezz" title="Software Engineer">💻🛠️</a></td>
+    <td align="center"><a href="https://github.com/ianlibanio"><img style="border-radius: 50%;" src="https://github.com/ianlibanio.png?size=100" width="100px;" alt=""/><br /><sub><b>Ian Libânio</b></sub></a><br /><a href="https://github.com/ianlibanio" title="Writer">📰</a></td>
   </tr>
 </table>
  
