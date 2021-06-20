@@ -31,10 +31,10 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [ReactJS]  (https://reactjs.org)
-- [Redux]  (https://redux.js.org/)
-- [Material-UI]  (https://material-ui.com/pt/)
-- [styled-components]  (https://styled-components.com/)    
+- [ReactJS](https://reactjs.org)
+- [Redux](https://redux.js.org/)
+- [Material-UI](https://material-ui.com/pt/)
+- [styled-components](https://styled-components.com/)    
 
 ## 💻 Projeto
 
