@@ -2,7 +2,6 @@ import React from 'react'
 
 import { useDispatch } from 'react-redux'
 import * as ContentActions from '../../store/reducers/content/actions'
-import { Redirect } from 'react-router-dom'
 
 import {
     NavBar
@@ -30,7 +29,6 @@ import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
 import { Rating } from '@material-ui/lab'
 
 import { useStyles } from './styles'
-import { CheckBox } from '@material-ui/icons';
 
 export default function Create(props) {
     const classes = useStyles()

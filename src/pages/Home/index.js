@@ -5,10 +5,7 @@ import { Link } from 'react-router-dom'
 
 import { contents } from '../../store/data'
 
-import { useDispatch } from 'react-redux'
 import { NavBar, Content } from '../../components'
-
-import * as ContentActions from '../../store/reducers/content/actions'
 
 import {
     Container,
@@ -24,7 +21,6 @@ import { useStyles } from './styles'
 
 export default function Home() {
     const classes = useStyles()
-    const dispatch = useDispatch()
 
     const [search, setSearch] = React.useState('')
 
