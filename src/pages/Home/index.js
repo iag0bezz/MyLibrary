@@ -30,20 +30,6 @@ export default function Home() {
 
     const handleSearch = (event) => {
         setSearch(event.target.value)
-
-        if(search === 'create') {
-            const content = {
-                id: new Date().getTime(),
-                title: 'Simple Title2',
-                synopsis: 'Era uma vez a princesa guerreira',
-                categories: ['fantasia', 'misterio', 'ficção'],
-                image_url: 'https://i.pinimg.com/564x/02/91/7d/02917dfe49cd1050600a7cd1344267dc.jpg',
-                deleted: false,
-                favorite: false
-            }
-
-            dispatch(ContentActions.addContent(content))
-        }
     }
 
     const contentsByFavorite = () => {
@@ -75,11 +61,17 @@ export default function Home() {
     const GlobalContents = () => {
         return (
             <>
+                {contentsByFavorite().length > 0 ? <h1>Favoritos</h1> : undefined}
                 <Grid container spacing={6}>
                     {contentsByFavorite().map(content =>
-                        <Grid key={content.id} item sm={2} xs={4}>
+                        <Grid key={content.id} item sm={4} xs={6}>
                             <Link to={`/content/${content.id}`}>
-                                <h1>{content.title}</h1>
+                                <Content 
+                                    key={content.id}
+                                    title={content.title}
+                                    synopsis={content.synopsis}
+                                    image_url={content.image_url}
+                                />
                             </Link>
                         </Grid>
                         )}

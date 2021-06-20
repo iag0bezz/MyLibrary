@@ -30,8 +30,9 @@ export default function cart(state = initialState, action) {
                     draft[index].synopsis = content.synopsis
                     draft[index].categories = content.categories
                     draft[index].image_url = content.image_url
-                    draft[index].favorite = false
+                    draft[index].favorite = content.favorite
                     draft[index].deleted = false
+                    draft[index].rating = content.rating
                 }
             })
         default:
