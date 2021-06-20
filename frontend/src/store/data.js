@@ -1,0 +1,1 @@
+export const contents = JSON.parse(localStorage.getItem('reduxStore')) ? JSON.parse(localStorage.getItem('reduxStore')).content : []
