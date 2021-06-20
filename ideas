@@ -1,0 +1,17 @@
+Data:
+
+Content[
+    title,
+    synopsis,
+    image_url,
+    favorite,
+    categories,
+    deleted
+]
+
+Comment[
+    content_id,
+    content
+    date,
+    deleted
+]

@@ -1,21 +1,22 @@
 <h1 align="center">
-    <img alt="MyLibrary" title="Logo" src="https://github.com/jlenon7/Stack11/raw/master/.github/logo.svg?sanitize=true" width="250px" />
+    <img alt="MyLibrary" title="Logo" src="https://i.imgur.com/u83YSHK.png" width="500px" />
 </h1>
 
-<h4 align="center">
+<h3 align="center">
    📚 MyLibrary - Sua biblioteca pessoal 📚
-</h4>
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/iag0bezz/MyLibrary">
+</h3>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/iag0bezz/MyLibrary">
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/iag0bezz/MyLibrary?style=for-the-badge">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/iag0bezz/MyLibrary?style=for-the-badge">
   
   <a href="https://github.com/iag0bezz/MyLibrary/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/iag0bezz/MyLibrary">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/iag0bezz/MyLibrary?style=for-the-badge">
   </a>
 
   <a href="https://github.com/iag0bezz/MyLibrary/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/iag0bezz/MyLibrary">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/iag0bezz/MyLibrary?style=for-the-badge">
   </a>
 </p>
 
@@ -30,21 +31,33 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [ReactJS](https://reactjs.org)
+- [ReactJS]  (https://reactjs.org)
+- [Redux]  (https://redux.js.org/)
+- [Material-UI]  (https://material-ui.com/pt/)
+- [styled-components]  (https://styled-components.com/)    
 
 ## 💻 Projeto
 
-O MyLibrary é uma pequena ferramenta para organização de conteúdos, comentários pessoais ou até mesmo suas críticas, uma pequena biblioteca pessoal para guardar livros, filmes e entre outros.
+O MyLibrary é uma pequena ferramenta para organização de conteúdos, comentários pessoais ou até mesmo suas críticas. Uma pequena biblioteca pessoal para guardar livros, filmes, séries, entre outros.
 
 ## 🤔 Como contribuir
 
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
+- Faça um fork deste repositório;
+- Crie uma branch com a sua feature: `git checkout -b feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Nova feature'`;
+- Faça push para a sua branch: `git push origin feature`.
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+Após ser realizado o merge de seu pull request, você pode deletar sua branch.
 
+## Contribuidores
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/iag0bezz"><img style="border-radius: 50%;" src="https://github.com/iag0bezz.png?size=100" width="100px;" alt=""/><br /><sub><b>Iago Beserra</b></sub></a><br /><a href="https://github.com/iag0bezz" title="GitHub">💻🛠️</a></td>
+    <td align="center"><a href="https://github.com/ianlibanio"><img style="border-radius: 50%;" src="https://github.com/ianlibanio.png?size=100" width="100px;" alt=""/><br /><sub><b>Ian Libânio</b></sub></a><br /><a href="https://github.com/ianlibanio" title="GitHub">📰</a></td>
+  </tr>
+</table>
+ 
 ---
 
 <p align="center">
