@@ -6,7 +6,8 @@ import { createBrowserHistory } from 'history'
 
 import {
     Home,
-    Create
+    Create,
+    View
 } from './pages'
 
 export default function Routes() {
@@ -14,6 +15,7 @@ export default function Routes() {
         <BrowserRouter history={createBrowserHistory()}>
             <Switch>
                 <Route path="/create" component={Create} />
+                <Route path="/content/:contentId?" component={View} />
                 <Route exact path="/" component={Home} />
 
                 <Redirect from="*" to="/" />

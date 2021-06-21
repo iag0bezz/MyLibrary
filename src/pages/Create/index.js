@@ -185,6 +185,7 @@ export default function Create(props) {
                                         onKeyPress={(event) => {
                                             if(event.key === 'Enter' && event.target.value.length > 0) {
                                                 setCategory([event.target.value, ...category])
+                                                event.target.value = ''
                                             }
                                         }}
                                         className={classes.form_input}
