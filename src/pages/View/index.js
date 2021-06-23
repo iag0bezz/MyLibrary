@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 
 import { contents } from '../../store/data'
 
+import { useStyles } from './styles'
+
 import {
     NavBar
 } from '../../components'
@@ -14,6 +16,7 @@ import {
 
 export default function View(props) {
     const { match } = props
+    const classes = useStyles()
 
     const [content, setContent] = useState({})
 
@@ -37,6 +40,8 @@ export default function View(props) {
                 <Box>
                     <Grid>
                         {content.title}
+                        <hr />
+                        {content.synopsis}
                     </Grid>
                 </Box>
             </Container>
