@@ -14,6 +14,19 @@ const GlobalStyle = createGlobalStyle`
     outline: 0;
     
     background-color: #F8F8F8;
+    font: 400 16px 'Roboto', sans-serif;
+  }
+  input {
+    font: 400 16px 'Roboto', sans-serif;
+  }
+  button {
+    font: 400 16px 'Roboto', sans-serif;
+  }
+  textarea {
+    font: 400 16px 'Roboto', sans-serif;
+  }
+  p {
+    font: 400 16px 'Roboto', sans-serif;
   }
 `
 

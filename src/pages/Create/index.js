@@ -129,9 +129,9 @@ export default function Create(props) {
                                             className={classes.card_favorite}
                                             control={
                                                 <Checkbox 
+                                                    checked={favorite}
                                                     icon={<FavoriteBorder />} 
                                                     checkedIcon={<Favorite />}
-                                                    value={favorite}
                                                     onChange={(event) => {
                                                         setFavorite(event.target.checked)
                                                     }}
