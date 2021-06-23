@@ -63,9 +63,7 @@ export default function View(props) {
     const Change = () => {
         if(hasSomeChange()) {
             return (
-                <div className={classes.save_base}>
-                    <button onClick={() => handleButton()} className={classes.save}>SALVAR ALTERAÇÕES</button>
-                </div>
+                <button onClick={() => handleButton()} className={classes.save}>SALVAR ALTERAÇÕES</button>
             )
         }
 
@@ -87,6 +85,12 @@ export default function View(props) {
         dispatch(ContentActions.updateContent(data, content.id))
 
         setContent(data)
+    }
+
+    const handleDelete = () => {
+        dispatch(ContentActions.removeContent(content.id))
+
+        props.history.push('/')
     }
 
     return (
@@ -128,7 +132,10 @@ export default function View(props) {
                                     <div className={classes.separator}>Sinopse</div>
                                     <p className={classes.synopsis}>{content.synopsis}</p>
                                     
-                                    <Change />
+                                    <div className={classes.save_base}>
+                                        <Change />
+                                        <button onClick={() => handleDelete()} className={classes.delete}>DELETAR</button>
+                                    </div>
                                 </div>
                             </Grid>
                         </Grid>

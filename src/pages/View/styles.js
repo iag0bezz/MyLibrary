@@ -64,12 +64,36 @@ export const useStyles = makeStyles(theme => ({
         alignItems: 'center',
     },
     save: {
+        marginRight: 5,
         marginTop: 300,
         height: 50,
         width: 250,
         borderRadius: 8,
         fontWeight: 500,
         background: '#4BB543',
+        color: '#FFF',
+        padding: '0 32px',
+        
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+
+        cursor: 'pointer',
+        border: 0,
+
+        transition: 'filter 0.2s',
+
+        '&:hover': {
+            filter: 'brightness(0.9)'
+        }
+    },
+    delete: {
+        marginTop: 300,
+        height: 50,
+        width: 150,
+        borderRadius: 8,
+        fontWeight: 500,
+        background: '#ff0033',
         color: '#FFF',
         padding: '0 32px',
         

@@ -75,7 +75,7 @@ export default function Home() {
 
                 {categories().map(category => {
                     return (<>
-                        <h1>{category}</h1>
+                        {contentsByCategory(category).length > 0 ? <h1>{category}</h1> : undefined}
                         <Grid container spacing={6}>
                             {contentsByCategory(category).map(content => {
                                 return (

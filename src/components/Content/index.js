@@ -8,17 +8,17 @@ import {
 
 import { useStyles } from './styles'
 
-export default function Content({ title, synopsis, image_url }) {
+export default function Content(props) {
     const classes = useStyles()
 
     return (
         <>
             <Card className={classes.root}>
-                <CardActionArea>
+                <CardActionArea {...props}>
                     <CardMedia 
                         className={classes.media}
-                        image={image_url}
-                        title={title}
+                        image={props.image_url}
+                        title={props.title}
                     />
                 </CardActionArea>
             </Card>
